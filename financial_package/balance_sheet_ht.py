@@ -7,6 +7,7 @@ from openpyxl.worksheet.page import PageMargins
 from datetime import datetime
 from openpyxl.styles import Border
 from openpyxl.styles import Side
+import pandas
 
 def retrieve_bs_data(dict_db):
     sql = """
